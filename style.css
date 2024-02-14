@@ -1,0 +1,88 @@
+.container {
+  max-width: 100%;
+  position: relative;
+  padding: 30px 20px 0 20px;
+}
+
+
+
+h1 {
+  padding-top: 115px;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: -200px;
+  animation: txt 0.2s ease-out;
+}
+
+img {
+  animation: an 1s ease-out;
+}
+
+@keyframes an {
+  0% {
+    opacity: 0;
+    transform: scale(0.2);
+  }
+
+  100% {}
+}
+
+@keyframes txt {
+  0% {
+    opacity: 0;
+    transform: scale(0.2);
+  }
+
+  100% {}
+}
+
+strike {
+  color: #FF0101;
+  font-weight: 700;
+}
+
+.line {
+  position: relative;
+  margin-top: 40px;
+  width: 100%;
+  position: relative;
+  height: 4px;
+  background: #FF0101;
+  margin-bottom: -17px;
+}
+
+.line-next {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: #FF0101;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 50%;
+  animation: scale 3s ease-in-out infinite;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+body {
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
